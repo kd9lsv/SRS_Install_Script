@@ -47,7 +47,8 @@ echo  -n "Install modules for SRS Dashboard."
 cd $HOME/.node-red
 if [[ $dashboard_update != 'n' ]] && [[ $dashboard_update != 'N' ]]; then
 curl -o flows.json -fsSL https://www.packtenna.com/uploads/1/2/2/7/122774721/flows__1_.json
-npm --prefix ~/.node-red/ install node-red node-red-contrib-email node-red-contrib-string node-red-contrib-ui-led node-red-dashboard node-red-node-serialport node-red-contrib-simple-gate node-red-node-pi-gpio node-red-contrib-buffer-parser @ralphwetzel/node-red-systeminformation node-red-contrib-unit-converter node-red-smooth node-red-contrib-moment --silent
+curl -o package,json -fsSL https://raw.githubusercontent.com/kd9lsv/SRS_Install_Script/refs/heads/main/package.json
+npm --prefix ~/.node-red/ install --silent
 fi
 echo "  Y"
 wait
