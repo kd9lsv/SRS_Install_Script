@@ -19,7 +19,7 @@
       "node-red-node-ping": "*",
       "node-red-node-random": "*",
       "node-red-node-ui-iframe": "*",
-      "node-red-contrib-simple-gate": "*",
+      "node-red-contrib-simple-gate": "*"
     }
   }
   
