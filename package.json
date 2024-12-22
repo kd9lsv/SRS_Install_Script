@@ -2,17 +2,24 @@
     "dependencies": {
       "@ralphwetzel/node-red-systeminformation": "*",
       "node-red": "*",
-      "node-red-contrib-buffer-parser": "*",
-      "node-red-contrib-email": "*",
       "node-red-contrib-moment": "*",
-      "node-red-contrib-simple-gate": "*",
       "node-red-contrib-string": "*",
       "node-red-contrib-ui-led": "*",
-      "node-red-contrib-unit-converter": "*",
+      "node-red-contrib-unit-converter": "*",      "node-red-contrib-buffer-parser": "*",
       "node-red-dashboard": "*",
-      "node-red-node-pi-gpio": "*",
       "node-red-node-serialport": "*",
-      "node-red-node-smooth": "*"
+      "node-red-node-smooth": "*",
+      "@js-on/node-red-contrib-py3run": "*",
+      "node-red-contrib-buffer-parser": "*",
+      "node-red-contrib-email": "*",
+      "node-red-contrib-play-audio": "*",
+      "node-red-contrib-python3-function": "*",
+      "node-red-contrib-ui-level": "*",
+      "node-red-node-pi-gpio": "*",
+      "node-red-node-ping": "*",
+      "node-red-node-random": "*",
+      "node-red-node-ui-iframe": "*",
+      "node-red-contrib-simple-gate": "*",
     }
   }
   
