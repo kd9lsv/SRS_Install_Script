@@ -5,7 +5,7 @@
       "node-red-contrib-moment": "*",
       "node-red-contrib-string": "*",
       "node-red-contrib-ui-led": "*",
-      "node-red-contrib-unit-converter": "*",      "node-red-contrib-buffer-parser": "*",
+      "node-red-contrib-unit-converter": "*",
       "node-red-dashboard": "*",
       "node-red-node-serialport": "*",
       "node-red-node-smooth": "*",
